@@ -1,0 +1,78 @@
+body {
+  background: #e6ecf0;
+  color: #14171a;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 20px;
+  overflow-y: scroll;
+}
+
+ul.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+ul.top-nav li{
+  float: left;
+
+}
+
+ul.top-nav li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 20px 18px;
+   text-decoration: none;
+}
+
+ul.top-nav li button {
+    background-color: #4AB3F4;
+    border-radius: 100px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+ul.top-nav li input {
+  width: 100px;
+  padding: 4px;
+  height: 15px;
+  margin-top: 18px;
+  position: relative;
+  font-size: 14px;
+  background-image: url("img/searchicon.png");
+  background-repeat: no-repeat;
+  background-position: right;
+	border-radius: 15px;
+  border: #4AB3F4 solid 2px;
+}
+
+ul.top-nav li a:hover.home {border-bottom: 2px solid #4AB3F4;}
+
+ul.top-nav li a:hover.messages {border-bottom: 2px solid #4AB3F4;}
+
+ul.top-nav li a:hover.notifications {border-bottom: 2px solid #4AB3F4;}
+
+ul.top-nav li a:hover.moments {border-bottom: 2px solid #4AB3F4;}
+
+ul.top-nav li.top-nav-tweet-btn {float: right;}
+
+
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.top-nav-tweet-btn,
+    ul.topnav li {float: none;}
+}
